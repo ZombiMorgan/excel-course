@@ -4,7 +4,9 @@
   "description": "Pure JS Exel App",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/ZombiMorgan/excel-course/issues"
   },
-  "homepage": "https://github.com/ZombiMorgan/excel-course#readme"
+  "homepage": "https://github.com/ZombiMorgan/excel-course#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  }
 }
