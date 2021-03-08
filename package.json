@@ -1,0 +1,24 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Pure JS Exel App",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZombiMorgan/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Zombi_Morgan <portvein666@list.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZombiMorgan/excel-course/issues"
+  },
+  "homepage": "https://github.com/ZombiMorgan/excel-course#readme"
+}
