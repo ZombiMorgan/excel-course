@@ -6,15 +6,9 @@
 @import "formula";
 @import "table";
 @import "dashboard";
+@import "fonts";
 
-/* fallback */
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: '../assets/Material Icons.woff2';
-}
-
+// @include font-face('Material Icons', 'MaterialIcons', 400, normal);
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;

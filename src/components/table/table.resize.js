@@ -4,7 +4,7 @@ export function resizeHandler(event, $root) {
   const $resizer = $(event.target);
   const type = $resizer.data.resize;
   const $parent = $resizer.closest('[data-type="resizable"]');
-  const col = $parent.$el.textContent.trim();
+  const col = $parent.data.col;
   const coords = $parent.getCoords();
   const prop = type === 'col' ? 'bottom' : 'right';
   $resizer.css({
@@ -37,7 +37,7 @@ export function resizeHandler(event, $root) {
     });
     if (type === 'col') {
       $parent.css({width: value +'px'});
-      $root.findAll(`[data-column="${col}"]`)
+      $root.findAll(`[data-col="${col}"]`)
           .forEach(($cell) => $cell.style.width = value +'px');
     } else {
       $parent.css({height: value +'px'});

@@ -43,7 +43,7 @@ module.exports = {
   devtool: isDev ? 'source-map' : false,
   devServer: {
     port: 3000,
-    hot: isDev,
+    // hot: isDev,
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -80,6 +80,10 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /node_modules/,
         use: jsLoaders(),
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
       },
     ],
   },
