@@ -5,6 +5,6 @@
     "resizer"
   ],
   "jshint.options": {
-     "esversion": 6,
+     "esversion": 9,
   },
 }

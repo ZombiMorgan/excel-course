@@ -26,3 +26,21 @@
   padding: 0;
   
 }
+
+// $FiraSansFontPath: '../assets';
+// $FiraSansFontFamily: 'Material Icons';
+// $FiraSansFontVersion: 2;
+// @mixin font-face($fontFamily, $fileName, $fontWeight, $fontStyle, $fontPath: $FiraSansFontPath) {
+//   @font-face {
+//       font-family: $fontFamily;
+//       src: url('#{$fontPath}/#{$fileName}.eot');
+//       src: local('^'),
+//         url('#{$fontPath}/#{$fileName}.eot?#iefix') format('embedded-opentype'),
+//         url('#{$fontPath}/#{$fileName}.woff2?v=#{$FiraSansFontVersion}') format('woff2'),
+//         url('#{$fontPath}/#{$fileName}.woff?v=#{$FiraSansFontVersion}') format('woff'),
+//         url('#{$fontPath}/#{$fileName}.ttf?v=#{$FiraSansFontVersion}') format('truetype');
+//       font-weight: $fontWeight;
+//       font-style: $fontStyle;
+//   }
+// }
+
